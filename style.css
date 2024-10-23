@@ -120,6 +120,41 @@
 }
 /* Run an Extra end */
 
+/* BMI Calculator start */
+.calculator {
+  background-color: rgba(34, 34, 34, 1);
+}
+.calculator {
+  padding: 30px 100px 10px 100px;
+  margin-top: 50px;
+}
+table {
+  width: 400px;
+  border-collapse: collapse;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #444;
+}
+.calculator-chart {
+  width: 100%;
+}
+.calculator-bmi {
+  width: 100%;
+  
+}
+.bg-color {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #444;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+/* BMI Calculator end */
 
 /* Meet Our Team start */
 .meet-sec {
