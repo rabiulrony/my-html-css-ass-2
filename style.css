@@ -35,7 +35,12 @@
   background-image: linear-gradient(black, rgb(39, 38, 38), black);
   height: 715px;
 }
-
+.manu-list {
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px 0px 10px 0px;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
 .nav-items {
   justify-content: space-between;
   align-items: center;
