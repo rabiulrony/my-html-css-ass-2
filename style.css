@@ -16,16 +16,23 @@
   max-width: 1440px;
   margin: 0 100px;
   padding-top: 30px;
-  
+}
+.p-text-color {
+  color: rgba(255, 255, 255, 0.5);
+}
+.h-text-color {
+  color: rgba(255, 255, 255, 1);
 }
 
 .allFlex {
   display: flex;
 }
 
+   /* header section star */
+
 .backImage {
   background-image: linear-gradient(black, rgb(39, 38, 38), black);
-  height: 85vh;
+  height: 715px;
   
 }
 
@@ -42,10 +49,57 @@
 .nav-link {
   text-decoration: none;
   color: aliceblue;
+  font-size: 18px;
 }
 .homeStyle {
   background-color: #E6533C; 
   border-radius: 20px; 
   padding: 10px 25px 10px 25px;
 }
+
+.head-button-one {
+  background-color: #E6533C;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  color: aliceblue;
+}
+
+.head-button-two {
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid aliceblue;
+  color: aliceblue;
+}
+
+.left-side {
+  margin-top: -150px;
+  margin-left: 700px;
+  justify-content: start;
+  align-items: center;
+  background-image: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  border-radius: 10px;
+  width: 150px;
+  padding: 20px 30px;
+}
+
+.img-bnt {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: none;
+  background-color: #E6533C;
+}
+
+.right-side {
+  margin-top: -400px;
+  margin-left: 1000px;
+  text-align: center;
+  background-image: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  border-radius: 10px;
+  width: 150px;
+  padding: 20px 30px;
+}
+/* header section end */
 
