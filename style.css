@@ -175,6 +175,40 @@ th, td {
 }
 /* Meet Our Team end */
 
+/* footer start */
+footer{
+  margin-top: 50px;
+}
+.foot-fitness {
+  padding: 50px 100px;
+  width: 100%;
+}
+.p-footer {
+  font-size: 23px;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 20px;
+}
+.h-footer {
+  font-size: 32px;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 30px;
+}
+.list-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  padding-top: 40px;
+  width: 100%;
+}
+hr{
+  max-width: 1440px;
+  margin: 0 100px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 40px;
+}
+
+/* footer end */
+
 
 @media screen and (max-width: 576px) {
   .allMargin {
