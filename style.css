@@ -34,7 +34,6 @@
 .backImage {
   background-image: linear-gradient(black, rgb(39, 38, 38), black);
   height: 715px;
-  
 }
 
 .nav-items {
@@ -104,4 +103,46 @@
   padding: 10px 20px;
 }
 /* header section end */
+
+/* Run an Extra start */
+.run-divs {
+  background-color: rgba(34, 34, 34, 1);
+  border-radius: 20px;  
+  justify-content:space-between;
+  padding: 30px 30px;
+
+}
+
+.run-img {
+  width: 100%;
+  border-radius: 20px;
+  width: 370px;
+  height: 315;
+}
+/* Run an Extra end */
+
+
+@media screen and (max-width: 576px) {
+  .allMargin {
+    margin: 0 20px;
+    padding-top: 10px;
+  }
+  .manu-list {
+    visibility: hidden;
+  }
+  .bannar {
+    flex-direction: column;
+  }
+  .backImage {
+    width: 100%;
+    height: 1315px;
+  }
+  .change-habits {
+    flex-direction: column;
+  }
+  .right-side {
+    margin-top: -350px;
+    margin-left: 250px;
+  }
+}
 
